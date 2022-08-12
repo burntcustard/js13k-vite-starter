@@ -1,5 +1,5 @@
 {
-  "name": "js13k-2022-starter",
+  "name": "js13k-vite-starter",
   "version": "1.0.0",
   "type": "module",
   "description": "",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/burntcustard/js13k-2022-starter.git"
+    "url": "git+https://github.com/burntcustard/js13k-vite-starter.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/burntcustard/js13k-2022-starter/issues"
+    "url": "https://github.com/burntcustard/js13k-vite-starter/issues"
   },
-  "homepage": "https://github.com/burntcustard/js13k-2022-starter#readme",
+  "homepage": "https://github.com/burntcustard/js13k-vite-starter#readme",
   "dependencies": {
     "kontra": "^8.0.0"
   },

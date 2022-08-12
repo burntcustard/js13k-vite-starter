@@ -1,1 +1,1 @@
-# js13k-2022-starter
+# js13k-vite-starter
