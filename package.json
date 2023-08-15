@@ -20,13 +20,13 @@
   },
   "homepage": "https://github.com/burntcustard/js13k-vite-starter#readme",
   "dependencies": {
-    "kontra": "^8.0.0"
+    "kontra": "^9.0.0"
   },
   "devDependencies": {
     "html-minifier": "^4.0.0",
     "jszip": "^3.10.1",
     "roadroller": "^2.1.0",
-    "terser": "^5.14.2",
-    "vite": "^3.0.6"
+    "terser": "^5.19.2",
+    "vite": "^4.4.9"
   }
 }

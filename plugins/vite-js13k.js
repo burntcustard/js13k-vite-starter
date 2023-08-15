@@ -20,7 +20,10 @@ async function zip(content) {
   await new Promise((resolve) => {
     jszip.generateNodeStream({ type: 'nodebuffer', streamFiles: true })
       .pipe(fs.createWriteStream('dist/game.zip'))
-      .on('finish', resolve);
+      .on('finish', () => {
+        console.log(`Zip size: ${fs.statSync('dist/game.zip').size}B`);
+        resolve();
+      });
   });
 }
 
